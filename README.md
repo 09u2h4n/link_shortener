@@ -4,6 +4,7 @@ It is a basic link shortener with basic and advanced utilites with python
 ´´´python
 Shortf().short_link(link="link_here", path="path_here", logstats=False, proxies={"https":"ip:port"})
 ```
+
 ```python
 print(Shortf().short_link(link="https://youtu.be/dQw4w9WgXcQ", path="my_special_path", logstats=False, proxies={}))
 ```
