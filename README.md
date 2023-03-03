@@ -1,6 +1,7 @@
 # link_shortener
 It is a basic link shortener with basic and advanced utilites with python
 # Usage short_link()
+
 ´´´python
 Shortf().short_link(link="link_here", path="path_here", logstats=False, proxies={"https":"ip:port"})
 ```
@@ -8,6 +9,7 @@ Shortf().short_link(link="link_here", path="path_here", logstats=False, proxies=
 ```python
 print(Shortf().short_link(link="https://youtu.be/dQw4w9WgXcQ", path="my_special_path", logstats=False, proxies={}))
 ```
+
 OUTPUT
 ```bash
 https://is.gd/my_special_path
